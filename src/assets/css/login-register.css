@@ -1,0 +1,310 @@
+.container-background{
+    width: 50%;
+    height: 100vh;
+    background: url(../img/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-background2{
+    width: 50%;
+    height: 100vh;
+    background: url(../img/fondo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-login{
+    height: 95vh;
+    width: 50%;
+}
+.box-img img{
+    width: 500px;
+}
+.text-login-company{
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+.text-acoount{
+    font-size: 20px;
+}
+.btn-register{
+    display: block;
+    margin: auto;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 42px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: color 0.4s ease;
+    transition: .4s;
+}
+.btn-register:hover{
+    transition: .4s;
+    background: #06f0a6de;
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.input100 {
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    border: none;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 62px;
+    padding: 0 30px 0 38px;
+    outline: none;
+    border-radius: 50px;
+    cursor: text !important;
+
+}
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    top: -1px;
+    left: -1px;
+    pointer-events: none;
+    border: 1px solid #38b88f;
+    border-radius: 50px;
+
+  
+    visibility: hidden;
+    opacity: 0;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    -webkit-transform: scaleX(1.1) scaleY(1.3);
+    -moz-transform: scaleX(1.1) scaleY(1.3);
+    -ms-transform: scaleX(1.1) scaleY(1.3);
+    -o-transform: scaleX(1.1) scaleY(1.3);
+    transform: scaleX(1.1) scaleY(1.3);
+}
+.input100:focus + .focus-input100 {
+    visibility: visible;
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+  
+  .eff-focus-selection {
+    visibility: visible;
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+a:focus {
+	outline: none !important;
+}
+a:hover {
+	text-decoration: none;
+  color: #403866;
+}
+.icon-user,.icon_security, .fa-envelope,.fa-search{
+    margin: 0 0 0 25px;
+    font-size: 25px;
+    color: #7e7e7e;
+}
+.wrap-input100:hover  .icon-user{
+    color: #38b88f;
+}
+.wrap-input100:hover  .icon_security{
+    color: #38b88f;
+}
+.wrap-input100:hover  .fa-envelope{
+    color: #38b88f;
+}
+.wrap-input100:hover  .fa-search{
+  color: #38b88f;
+}
+
+.text-login{
+    color: #444;
+    font-weight: 700;
+}
+/*==================================================================
+[ Restyle Checkbox ]*/
+
+.input-checkbox100 {
+    display: none;
+}
+
+.label-checkbox100 {
+    margin: 0 0 0 15px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+  }
+  
+  .label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background: #fff;
+    border: 2px solid #38b88f;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .input-checkbox100:checked + .label-checkbox100::before {
+    color: #38b88f;
+  }
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .login100-form-btn {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border: none;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 62px;
+    background-color: #38b88f;
+    border-radius: 3px;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .login100-form-btn:hover {
+    background-color: #06f0a6de;
+  }
+  
+  
+  .login100-form-btn:disabled {
+    background-color: grey;
+  }
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+    position: relative;
+  }
+  
+  .alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 3px;
+    padding: 4px 25px 5px 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 12px;
+    pointer-events: none;
+  
+    color: #c80000;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+  
+    visibility: hidden;
+    opacity: 0;
+  
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+  }
+  
+  .alert-validate::after {
+    content: "\f12a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 18px;
+  }
+  
+  .alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @media (max-width: 992px) {
+    .alert-validate::before {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  
+  
+  /*//////////////////////////////////////////////////////////////////
+  [ Responsive ]*/
